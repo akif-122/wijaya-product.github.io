@@ -1,0 +1,105 @@
+.post-container{
+	padding: 0 20px;
+	padding-right: 50px;
+}
+.sidebar{
+	padding: 0 30px;
+}
+.sidebar .p-card-content{
+	margin-bottom: 15px;
+}
+.sidebar .p-card-content h6{
+	color: #fff;
+	background: #6BA321;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 10px 0;
+	text-align: center;
+}
+.post-content{
+	background: #fff;
+}
+.post-content .product-header{
+	background: #E0E0DD;
+    margin-bottom: 35px;
+}
+.post-content .product-header h2{
+	display: inline-block;
+    background: #fff;
+    padding: 5px 40px;
+    color: #F94855;
+    margin: 0;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+.post-content .post-text > h6{
+	color: #CD2A01;
+	font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.post-content .post-text > h6:first-child{
+	margin-top: 0;
+}
+.post-content .post-text > p{
+	font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+
+.post-video{
+	width: 80%;
+	margin: 40px auto;
+}
+.post-video iframe{
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width: 1199px){
+.post-video iframe{
+	height: 400px;
+}
+
+}
+
+
+@media screen and (max-width: 991px){
+.post-container {
+    padding-right: 20px; 
+}
+.sidebar .p-card-content{
+	max-width: 150px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.sidebar .p-card-content h6{
+	color: #fff;
+	background: #6BA321;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 10px 0;
+	text-align: center;
+}
+
+}
+
+@media screen and (max-width: 575px){
+.sidebar{
+	padding: 0 15px;
+}
+.post-video {
+	width: 98%;
+}
+.post-video iframe{
+	height: 280px;
+}
+
+
+}

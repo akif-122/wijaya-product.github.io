@@ -1,0 +1,248 @@
+
+/*
+==================================
+	ABOUT CONTENT START
+==================================
+*/
+
+.about-banner{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.about-content {
+	width: 80%;
+	margin: 20px auto;
+
+}
+
+.about-content .about-tabs ul{
+	border-bottom: none;
+}
+.about-content .about-tabs ul li a{
+	padding: 10px 17px;
+	background: #DAD770;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000000;
+	border-right: 1px solid #d9d9d9;
+
+}
+
+.about-content .about-tabs ul li a.active{
+	background: #FFEA66;
+}
+
+.about-content .about-text{
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #ccc;
+	padding: 20px 0;
+	padding-bottom: 50px;
+
+
+}
+.about-text .tab-pane{
+	padding: 20px 30px;
+}
+.about-text h4{
+	color: #e04040;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+
+.about-text .bl{
+	margin-bottom: 40px;
+	padding-left: 20px;
+	border-left: 5px solid rgba(228,233,187,0.28);
+}
+
+.about-text  p{
+	font-size: 13px;
+	color: rgba(0,0,0,0.7);
+	line-height: 1.8;
+	text-align: justify;
+}
+
+.about-content-img{
+	width: 85%;
+	margin: 15px auto;
+}
+
+.ch-about strong{
+	display: block;
+	font-size: 12px;
+}
+
+
+.director .director-card .card-body{
+	width: 75%;
+
+}
+
+.director .director-card .card-body p{
+	text-align: left;
+	font-size: 12px;
+	color: rgba(0,0,0,0.8);
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+
+.director .director-card .card-body strong{
+	font-size: 13px;
+}
+
+.director .director-card .card-body .dir-img{
+	width: 100%;
+	border: 7px solid #DCDCDC;
+	margin: auto;
+}
+.net-banner{
+	margin: 40px 0;
+}
+
+.network{
+	margin: 40px 0;
+}
+
+.border-green{
+	border: 3px solid green;
+	margin: 20px 0;
+}
+.values-tab ul{
+	border-bottom: none;
+	display: block;
+
+}
+.values-tab ul li{
+	width: 80%;
+	display: block;
+  
+}
+
+.values-tab ul li a{
+	display: block;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #ccc!important;
+}
+.values-tab ul li a.active{
+  border: 1px solid #f2f6d9!important;
+
+}
+.values-content .values-list ul{
+	list-style: none;
+}
+.values-content .values-list ul li{
+	padding-left: 25px;
+    padding-right: 5px;
+    background-image: url(https://design6.weblook.asia/spicewijay/wp-content/uploads/2020/10/bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0.5em;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #6f6e6e;
+    padding-bottom: 5px;
+    text-align: left!important;
+    list-style: none;
+}
+
+.values-list{
+	max-height: 450px;
+	overflow-y: auto;
+}
+/*
+==================================
+	ABOUT CONTENT END
+==================================
+*/
+
+
+.assurance-text p span{
+	color: #E64440;;
+}
+
+
+@media screen and (max-width: 1199px){
+.director .director-card{
+	padding: 0;
+}
+.director .director-card .card-body{
+	width: 80%;
+	margin: auto;
+
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+.about-content {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.about-text h4{
+	font-size: 18px;
+}
+
+
+.about-content .about-tabs ul{
+	border-bottom: none;
+	flex-direction: column;
+}
+/*.about-content .about-tabs ul li{
+	display: block;
+	width: 100%;
+}*/
+.about-content .about-tabs ul li a{
+	padding: 10px 17px;
+	display: block;
+	background: #DAD770;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000000;
+	border-right: 1px solid #d9d9d9;
+
+}
+.about-text .tab-pane{
+	padding: 20px 10px;
+}
+
+.about-content-img{
+	width: 100%;
+	margin: 15px auto;
+}
+
+
+
+.values-tab ul{
+	border-bottom: none;
+	display: block;
+
+}
+.values-tab ul li{
+	width: 100%;
+	display: block;
+  
+}
+
+
+
+
+
+}

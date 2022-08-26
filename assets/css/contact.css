@@ -1,0 +1,159 @@
+.contact-container{
+	width: 90%;
+	margin: auto;
+}
+
+.contact-container > h2{
+	color: #F0A32D!important;
+	font-family: lato, sans-serif;
+	font-size: 30px;
+
+}
+
+.contact-container .contact{
+	background: #F9EDD0;
+	padding: 40px;
+
+}
+
+.contact-container .contact .enquire{
+	display: flex;
+	margin-bottom: 20px;
+
+}
+.contact-container .contact .enquire b{
+	margin-left: 8px;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 5px;
+	color: #666666;
+	font-family: Open Sans, sans-serif;
+
+}
+
+.contact-container .contact .contact-form{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.contact-container .contact .contact-form label{
+	    color: #663300;
+	    font-family: Open Sans;
+	    font-size: 14px;
+}
+.contact-container .contact .contact-form textarea,
+.contact-container .contact .contact-form .form-group input{
+	width: 100%;
+	background-color: #fff;
+    border: 1px solid #000;
+    padding: 2px;
+    color: black;
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 13px;
+}
+
+.contact-container .contact .contact-form .s-btn input{
+	background-color: #f5b249;
+    border-style: none;
+    color: #533419;
+    width: 130px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 25px;
+    font-size: 13px;
+}
+.contact-container .contact .contact-form .s-btn input:hover{
+	opacity: 0.8;
+}
+
+.contact-info{
+	background: #FFC561;
+	padding: 30px;
+}
+
+.contact-info .list{
+	margin: 30px 0;
+}
+.contact-info .list .list-heading{
+	min-width: 100px;
+}
+.contact-info .list .list-heading img{
+	width: 33px;
+	margin-right: 5px;
+}
+
+.contact-info .list .list-heading b{
+	font-size: 14px;
+	font-family: Open Sans, sans-serif;
+	margin-left: 10px;
+}
+
+.contact-info .list .list-detail{
+	margin-left: 30px;
+}
+.contact-info .list .list-detail p.text-b{
+	    color: #3939be;
+	    font-weight: 800;
+}
+.contact-info .list .list-detail p{
+	margin: 0;
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px;
+}
+
+.map{
+	border: 2px solid #ccc;
+	margin-top: 20px;
+}
+
+
+@media screen and (max-width: 575px){
+
+.contact-container{
+	width: 95%;
+}
+
+
+.contact-container .contact{
+	padding: 20px 15px;
+
+}
+.contact-info{
+	padding: 10px;
+}
+
+.contact-info .list{
+	margin: 30px 0;
+}
+.contact-info .list .list-heading{
+	min-width: 80px;
+}
+.contact-info .list .list-heading img{
+	width: 25px;
+	margin-right: 0px;
+}
+
+.contact-info .list .list-heading b{
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.contact-info .list .list-detail{
+	margin-left: 20px;
+}
+
+.map{
+	border: 2px solid #ccc;
+	margin-top: 20px;
+	padding: 0;
+}
+
+
+.map iframe{
+	height: 300px;
+}
+
+
+}

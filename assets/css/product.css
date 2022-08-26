@@ -1,0 +1,127 @@
+.product{
+	width: 80%;
+	margin: auto;
+	background: #fff;
+	padding-bottom: 50px;
+}
+
+.product .product-header{
+	background: #E0E0DD;
+	margin-bottom: 35px;
+}
+
+.product .product-header h2{
+	display: inline-block;
+	background: #fff;
+	padding: 5px 40px;
+	color: #F94855;
+	margin: 0;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	font-size: 35px;
+	font-family: 'Lobster', cursive;
+}
+
+.product .product-menu{
+	padding: 0 30px;
+}
+
+.product .product-menu ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+.product .product-menu ul li{
+	margin: 3px;
+
+}
+
+.product .product-menu ul li a{
+	font-size: 22px;
+	font-family: 'Lobster', cursive;
+	padding: 8px 25px;
+	border-radius: 8px;
+	background: #F1F0EF;
+	color: #CFA766;
+	display: inline-block;
+	cursor: pointer;
+
+}
+.product .product-menu ul li a.active{
+	background: #CFA766 ;
+	color: #F1F0EF;
+}
+
+.product .product-card-container{
+	padding: 20px 30px;
+}
+
+.product .product-card-container .pr-card{
+	text-align: center;
+	margin: 10px 0;
+	box-shadow: 3px 3px 0px 0px #eeecec;
+	padding-bottom: 23px;
+	position: relative;
+}
+
+.product .product-card-container .pr-card h5{
+	font-family: 'Antic Slab',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #CB2330!important;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.product .product-card-container .pr-card a{
+	display: block;
+	background-color: transparent;
+    border-color: transparent;
+    font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    color: #646464!important;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: -5px!important;
+    margin-top: 0;
+    padding: 3px ;
+    font-size: 12px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+}
+
+.product .product-card-container .pr-card a:hover{
+	background: #FAF9F7;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px){
+
+
+.product{
+	width: 90%;
+}
+
+.product .product-menu{
+	padding: 0 10px;
+}
+.product .product-menu ul{
+	flex-direction: column;
+	
+}
+
+.product .product-menu ul li a{
+	display: block;
+
+}
+
+.product .product-card-container{
+	padding: 20px 10px;
+}
+
+}
